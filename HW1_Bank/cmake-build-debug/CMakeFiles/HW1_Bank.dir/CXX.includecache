@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Volumes/COLLEGE/KSU/DataStructures/DS3304/HW1_Bank/Account.cpp
+Account.h
+/Volumes/COLLEGE/KSU/DataStructures/DS3304/HW1_Bank/Account.h
+cassert
+-
+cstdlib
+-
+iostream
+-
+
+/Volumes/COLLEGE/KSU/DataStructures/DS3304/HW1_Bank/Account.h
+string
+-
+
+/Volumes/COLLEGE/KSU/DataStructures/DS3304/HW1_Bank/main.cpp
+Account.h
+-
+iostream
+-
+

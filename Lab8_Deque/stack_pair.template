@@ -1,0 +1,77 @@
+#include <cassert>  // Provides assert
+#include <cstdlib>  // Provides NULL, rand
+#include <iostream>
+
+using namespace std;
+
+template <class T>
+stack_pair<T>::stack_pair( )
+{
+	//initialize variables
+	top_a = 0;
+	top_b = 29;
+	
+	many_elements_a = 0;
+	many_elements_b = 0;
+	
+	used = 0;
+}
+
+template <class T>
+T stack_pair<T>::pop_a(){
+	
+	//Check if stack a is empty
+	assert(!is_empty_a());
+	
+	//Subtract the number of elements, top_a, and used by 1
+	--top_a;
+	--many_elements_a;
+	--used;
+	return data[top_a];;
+}
+
+template <class T>
+T stack_pair<T>::pop_b()
+{
+	
+	//Check if stack a is empty
+	assert(!is_empty_b());
+	
+	//Subtract the number of elements and used by 1, add top_b by 1
+	++top_b;
+	--many_elements_b;
+	--used;
+	return data[top_b];
+}
+
+template <class T>
+void stack_pair<T>::push_a(T item)
+{
+	
+	//Check if used is not equal to capacity
+	assert(used != CAPACITY);
+	
+	//What's next in top_a is now equal to item
+	data[top_a] = item;
+	
+	//Increment the variables
+	++top_a;
+	++used;
+	++many_elements_a;
+}
+
+template <class T>
+void stack_pair<T>::push_b(T item)
+{
+	
+	//Check if used is not equal to capacity
+	assert(used != CAPACITY);
+	
+	//What's next in top_b is now equal to item
+	data[top_b] = item;
+	
+	//Increment and decrement the variables
+	--top_b;
+	++used;
+	++many_elements_b;
+}

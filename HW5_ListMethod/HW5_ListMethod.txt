@@ -1,0 +1,1 @@
+./Debug/try_list_methods.cpp.o ./Debug/list.cpp.o ./Debug/utility.cpp.o ./Debug/node1.cpp.o

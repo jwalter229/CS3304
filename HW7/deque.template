@@ -1,0 +1,180 @@
+#include "deque.h"
+#include <cassert>
+
+using namespace std;
+
+template <class T>
+deque<T>::deque()
+{
+	first = NULL;
+	count = 0;
+}
+
+template <class T>
+deque<T>::~deque()
+{
+	list_clear(first);
+	count = 0;
+}
+
+template <class T>
+deque<T>::deque(const T& fEntry, const T& bEntry)
+{
+	//Initialize all the variables
+	first = 0;
+	count = 0;
+	push_front(fEntry);
+	push_back(bEntry);
+}
+
+template <class T>
+deque<T>::deque(const deque<T>& dq)
+{
+	count = dq.count;
+	list_copy(dq.first, first, last);
+}
+
+// start of operator =
+template <class T>
+deque<T>& deque<T>::operator = (const deque<T>& dq)
+{
+	count = dq.count;
+	list_copy(dq.first, first, last);
+	return *this;
+}// end of operator =
+
+template <class T>
+T& deque<T>::front()
+{
+	assert(!empty());
+	
+	return first->data();
+}
+
+template <class T>
+T deque<T>::front() const
+{
+	assert(!empty());
+	
+	return first->data();
+}
+
+template <class T>
+T& deque<T>::back()
+{
+	assert(!empty());
+	
+	return last->data();
+}
+
+template <class T>
+T deque<T>::back() const
+{
+	assert(!empty());
+	
+	return last->data();
+}
+
+//start of push_front
+template <class T>
+void deque<T>::push_front(const T& entry)
+{
+	
+	++count;
+	list_head_insert(first, entry);
+
+	if (size() == 1) // if size == 1
+    {
+		last = first; // last is equal to first
+	}
+}// end of push_front
+
+// start of push_back
+template <class T>
+void deque<T>::push_back(const T& entry)
+{
+	++count;
+	
+	if (empty()) // if empty
+    {
+		list_head_insert(first, entry); // head is equal to first entry
+		last = first;
+	}
+	else {
+		list_insert(last, entry);
+		last = last->link();
+	}
+}
+
+// start of pop_front
+template <class T>
+void deque<T>::pop_front()
+{
+	assert(!empty());
+	--count;
+	list_head_remove(first);
+}// end of pop_front
+
+// start of pop_back
+template <class T>
+void deque<T>::pop_back()
+{
+	assert(!empty());
+	--count;
+	// position equal first position; notEqual last->link(); position equal position->link()
+	for (node<T>* position = first; position != last->link(); position = position->link())
+    {
+		if (position->link() == last) // if position->link() equals to last
+        {
+			list_remove(position); //remove from list
+			last = position; // 
+		}
+	}
+}// end of pop_back
+
+
+// start of operator ==
+template <class U>
+bool operator == (const deque<U>& dq1, const deque<U>& dq2)
+{
+	if (dq1.size() == dq2.size())
+    {
+		
+		node<U>* position = dq1.first;
+		node<U>* cursor = dq2.first;
+		// while position notEqual null and cursor notEqual to null
+		while (position != NULL && cursor != NULL)
+        {
+			if (position->data() != cursor->data()) // position->data() notEqual cursor->data() return false
+            {
+				return false;
+			}
+			// position->link() == NULL && cursor->link() == NULL
+			if (position->link() == NULL && cursor->link() == NULL)
+            {
+				return true; // true
+			
+			}
+			
+			position = position->link();
+			cursor = cursor->link();
+		}
+	}
+	else {
+		return false;
+	}
+	return false;
+}// end of operator ==
+
+// start of operator <<
+template <class U>
+ostream& operator<< (ostream& out, const deque<U>& dq)
+{	
+	cout << "This deque contains the following elements: ";
+	for (node<U>* position = dq.first; position != NULL; position = position->link())
+    {
+		cout << position->data() << " ";
+	}
+}// end of operator <<
+
+

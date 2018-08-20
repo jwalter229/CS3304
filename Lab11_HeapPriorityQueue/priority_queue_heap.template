@@ -1,0 +1,91 @@
+#include <cassert>
+
+template <class T>
+void priority_queue_heap<T>::insert(const T& value){
+	assert(!is_full());
+	
+	//Make the next position in the array equal to value
+	data[used] = value;
+	
+	//Check if the last value is not the first value
+	if (used != 0){
+		
+		//Create an int of i
+		int i = used;
+		
+		//Check if the parent is less than value and at the same time check if i is greater than or equal to 0
+		while (data[(i - 1) / 2] < value && i >= 0){
+			
+			//Make temp equal to the parent's value
+			T temp = data[(i - 1) / 2];
+			
+			//Make the parent's position equal to value
+			data[(i - 1) / 2] = value;
+			
+			//The used to be parent is equal to the used to be child's position.
+			data[i] = temp;
+			
+			//Make i equal to the current position of value
+			i = (i - 1) / 2;
+		}
+	}
+	
+	//Increment used by 1
+	++used;
+}
+
+template <class T>
+T priority_queue_heap<T>::remove(){
+	assert(!is_empty());
+	
+	//Get the next value to remove
+	T max_value = data[0];
+	
+	//Make the first index equal to the last element
+	data[0] = data[used - 1];
+	
+	//Decrease used by 1
+	--used;
+	
+	//Create int i and set it to 0
+	int i = 0;
+	
+	//Check if the used to be last element is less than its children and check if it has children
+	while ((data[(2 * i + 1)] > data[i] || data[(2 * i + 2)] > data[i]) && (2 * i + 2 < used || 2 * i + 2 < used)){
+		
+		//If the left child is greater than the right child
+		if (data[(2 * i + 1)] > data[2 * i + 2]){
+			//Create temp variable and store the used to be last element in it
+			T temp = data[i];
+			
+			//Set data[i] equal to the left child
+			data[i] = data[(2 * i + 1)];
+			
+			//set the value equal to the used to be left child's index
+			data[(2 * i + 1)] = temp;
+			
+			//Make i equal to that index
+			i = 2 * i + 1;
+		}
+		
+		//The right child is greater
+		else{
+			T temp = data[i];
+			data[i] = data[(2 * i + 2)];
+			data[(2 * i + 2)] = temp;
+			i = 2 * i + 2;
+		}
+	}
+	
+	//Return the next value that's removed
+	return max_value;
+}
+
+template <class T>
+void priority_queue_heap<T>::print(){
+	
+	//Print all values in priority_queue heap
+	for (int i = 0; i < used; i++){
+		cout<<data[i]<<" ";
+	}
+}

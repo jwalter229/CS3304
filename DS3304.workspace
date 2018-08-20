@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="DS3304" Database="" Version="10.0.0">
+  <Project Name="HW1_Quad" Path="HW1_Quad/HW1_Quad.project" Active="No"/>
+  <Project Name="Throttle" Path="Throttle/Throttle.project" Active="No"/>
+  <Project Name="HW1_Quad2" Path="HW1_Quad2/HW1_Quad2.project" Active="No"/>
+  <Project Name="Bag" Path="Bag/Bag.project" Active="No"/>
+  <Project Name="HW1_Bank" Path="HW1_Bank/HW1_Bank.project" Active="No"/>
+  <Project Name="HW2_Sequence" Path="HW2_Sequence/HW2_Sequence.project" Active="No"/>
+  <Project Name="Lab2_Statistician" Path="Lab2_Statistician/Lab2_Statistician.project" Active="No"/>
+  <Project Name="Lab3_Stats2" Path="Lab3_Stats2/Lab3_Stats2.project" Active="No"/>
+  <Project Name="Lab4_Set" Path="Lab4_Set/Lab4_Set.project" Active="No"/>
+  <Project Name="HW3_Poly" Path="HW3_Poly/HW3_Poly.project" Active="No"/>
+  <Project Name="Lab5_CheckLists" Path="Lab5_CheckLists/Lab5_CheckLists.project" Active="No"/>
+  <Project Name="Lab5_Bag3" Path="Lab5_Bag3/Lab5_Bag3.project" Active="No"/>
+  <Project Name="HW4_Node" Path="HW4_Node/HW4_Node.project" Active="No"/>
+  <Project Name="Lab6_Sequence3" Path="Lab6_Sequence3/Lab6_Sequence3.project" Active="No"/>
+  <Project Name="HW5_ListMethod" Path="HW5_ListMethod/HW5_ListMethod.project" Active="No"/>
+  <Project Name="Lab7_BagWithIterator" Path="Lab7_BagWithIterator/Lab7_BagWithIterator.project" Active="No"/>
+  <Project Name="HW6_TestingSets" Path="HW6_TestingSets/HW6_TestingSets.project" Active="No"/>
+  <Project Name="Lab9_Recursion" Path="Lab9_Recursion/Lab9_Recursion.project" Active="No"/>
+  <Project Name="HW7" Path="HW7/HW7.project" Active="No"/>
+  <Project Name="Lab8_Deque" Path="Lab8_Deque/Lab8_Deque.project" Active="No"/>
+  <Project Name="HW8_Pattern" Path="HW8/HW8.project" Active="No"/>
+  <Project Name="Lab10_BinaryTree" Path="Lab10_BinaryTree/Lab10_BinaryTree.project" Active="No"/>
+  <Project Name="HW9_BearPicnic" Path="HW9_BearPicnic/HW9_BearPicnic.project" Active="No"/>
+  <Project Name="HW9_BinarySearchTree" Path="HW9_BinarySearchTree/HW9_BinarySearchTree.project" Active="No"/>
+  <Project Name="Lab11_HeapPriorityQueue" Path="Lab11_HeapPriorityQueue/Lab11_HeapPriorityQueue.project" Active="No"/>
+  <Project Name="Lab12_Table" Path="Lab12_Table/Lab12_Table.project" Active="No"/>
+  <Project Name="Lab12_Table_redo" Path="Lab12_Table_redo/Lab12_Table_redo.project" Active="No"/>
+  <Project Name="Udemy" Path="Udemy/Udemy.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="HW1_1" ConfigName="Debug"/>
+      <Project Name="Lab2_Statistican" ConfigName="Debug"/>
+      <Project Name="HW1_Bank" ConfigName="Debug"/>
+      <Project Name="HW1_Quad" ConfigName="Debug"/>
+      <Project Name="Throttle" ConfigName="Debug"/>
+      <Project Name="HW1_Bank" ConfigName="Debug"/>
+      <Project Name="HW1_BankAccount" ConfigName="Debug"/>
+      <Project Name="HW1_Quad2" ConfigName="Debug"/>
+      <Project Name="HW1_Bank" ConfigName="Debug"/>
+      <Project Name="Lab3_Stats2" ConfigName="Debug"/>
+      <Project Name="Lab3_Stats2" ConfigName="Debug"/>
+      <Project Name="Bag" ConfigName="Debug"/>
+      <Project Name="HW2_Sequence" ConfigName="Debug"/>
+      <Project Name="HW2_Sequence" ConfigName="Debug"/>
+      <Project Name="HW1_Bank" ConfigName="Debug"/>
+      <Project Name="HW2_Sequence" ConfigName="Debug"/>
+      <Project Name="multiset" ConfigName="Debug"/>
+      <Project Name="HW2_Sequence2" ConfigName="Debug"/>
+      <Project Name="HW2_Sequence" ConfigName="Debug"/>
+      <Project Name="Lab2_Statisican" ConfigName="Debug"/>
+      <Project Name="Lab2_Statistician" ConfigName="Debug"/>
+      <Project Name="Lab3_Stats" ConfigName="Debug"/>
+      <Project Name="Lab3_Stats2" ConfigName="Debug"/>
+      <Project Name="HW2_Sequence2" ConfigName="Debug"/>
+      <Project Name="Lab4_Set" ConfigName="Debug"/>
+      <Project Name="Lab4_Set" ConfigName="Debug"/>
+      <Project Name="Set" ConfigName="Debug"/>
+      <Project Name="Lab4_Set" ConfigName="Debug"/>
+      <Project Name="HW3_Poly0" ConfigName="Debug"/>
+      <Project Name="HW3_Poly" ConfigName="Debug"/>
+      <Project Name="HW3_Poly0" ConfigName="Debug"/>
+      <Project Name="HW3_Poly0" ConfigName="Debug"/>
+      <Project Name="HW3_Poly" ConfigName="Debug"/>
+      <Project Name="HW3_Poly" ConfigName="Debug"/>
+      <Project Name="Lab5_CheckLists" ConfigName="Debug"/>
+      <Project Name="Lab5_Bag3" ConfigName="Debug"/>
+      <Project Name="HW4_Node" ConfigName="Debug"/>
+      <Project Name="Lab6_Sequence3" ConfigName="Debug"/>
+      <Project Name="HW5_ListMethods" ConfigName="Debug"/>
+      <Project Name="HW5_ListMethods" ConfigName="Debug"/>
+      <Project Name="HW5_ListMethod" ConfigName="Debug"/>
+      <Project Name="Lab7_BagIterator" ConfigName="Debug"/>
+      <Project Name="Lab7_BagWithIterator" ConfigName="Debug"/>
+      <Project Name="HW6_TestingSets" ConfigName="Debug"/>
+      <Project Name="HW6_TestingSets" ConfigName="Debug"/>
+      <Project Name="Lab8" ConfigName="Debug"/>
+      <Project Name="Lab8_Deque" ConfigName="Debug"/>
+      <Project Name="Lab9_Recursion" ConfigName="Debug"/>
+      <Project Name="HW7_Deque" ConfigName="Debug"/>
+      <Project Name="HW7" ConfigName="Debug"/>
+      <Project Name="HW7" ConfigName="Debug"/>
+      <Project Name="Lab8_Deque" ConfigName="Debug"/>
+      <Project Name="HW8_Pattern" ConfigName="Debug"/>
+      <Project Name="Lab10_BinaryTree" ConfigName="Debug"/>
+      <Project Name="HW9_BearPicnic" ConfigName="Debug"/>
+      <Project Name="HW9_BinarySearchTree" ConfigName="Debug"/>
+      <Project Name="Lab11_HeapPriorityQueue" ConfigName="Debug"/>
+      <Project Name="Lab12_Table" ConfigName="Debug"/>
+      <Project Name="Lab12_Table_redo" ConfigName="Debug"/>
+      <Project Name="Udemy" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="HW1_1" ConfigName="Release"/>
+      <Project Name="Lab2_Statistican" ConfigName="Release"/>
+      <Project Name="HW1_Bank" ConfigName="Release"/>
+      <Project Name="HW1_Quad" ConfigName="Release"/>
+      <Project Name="Throttle" ConfigName="Release"/>
+      <Project Name="HW1_Bank" ConfigName="Release"/>
+      <Project Name="HW1_BankAccount" ConfigName="Release"/>
+      <Project Name="HW1_Quad2" ConfigName="Release"/>
+      <Project Name="HW1_Bank" ConfigName="Release"/>
+      <Project Name="Lab3_Stats2" ConfigName="Release"/>
+      <Project Name="Lab3_Stats2" ConfigName="Release"/>
+      <Project Name="Bag" ConfigName="Release"/>
+      <Project Name="HW2_Sequence" ConfigName="Release"/>
+      <Project Name="HW2_Sequence" ConfigName="Release"/>
+      <Project Name="HW1_Bank" ConfigName="Release"/>
+      <Project Name="HW2_Sequence" ConfigName="Release"/>
+      <Project Name="multiset" ConfigName="Release"/>
+      <Project Name="HW2_Sequence2" ConfigName="Release"/>
+      <Project Name="HW2_Sequence" ConfigName="Release"/>
+      <Project Name="Lab2_Statisican" ConfigName="Release"/>
+      <Project Name="Lab2_Statistician" ConfigName="Release"/>
+      <Project Name="Lab3_Stats" ConfigName="Release"/>
+      <Project Name="Lab3_Stats2" ConfigName="Release"/>
+      <Project Name="HW2_Sequence2" ConfigName="Release"/>
+      <Project Name="Lab4_Set" ConfigName="Release"/>
+      <Project Name="Lab4_Set" ConfigName="Release"/>
+      <Project Name="Set" ConfigName="Release"/>
+      <Project Name="Lab4_Set" ConfigName="Release"/>
+      <Project Name="HW3_Poly0" ConfigName="Release"/>
+      <Project Name="HW3_Poly" ConfigName="Release"/>
+      <Project Name="HW3_Poly0" ConfigName="Release"/>
+      <Project Name="HW3_Poly0" ConfigName="Release"/>
+      <Project Name="HW3_Poly" ConfigName="Release"/>
+      <Project Name="HW3_Poly" ConfigName="Release"/>
+      <Project Name="Lab5_CheckLists" ConfigName="Release"/>
+      <Project Name="Lab5_Bag3" ConfigName="Release"/>
+      <Project Name="HW4_Node" ConfigName="Release"/>
+      <Project Name="Lab6_Sequence3" ConfigName="Release"/>
+      <Project Name="HW5_ListMethods" ConfigName="Release"/>
+      <Project Name="HW5_ListMethods" ConfigName="Release"/>
+      <Project Name="HW5_ListMethod" ConfigName="Release"/>
+      <Project Name="Lab7_BagIterator" ConfigName="Release"/>
+      <Project Name="Lab7_BagWithIterator" ConfigName="Release"/>
+      <Project Name="HW6_TestingSets" ConfigName="Release"/>
+      <Project Name="HW6_TestingSets" ConfigName="Release"/>
+      <Project Name="Lab8" ConfigName="Release"/>
+      <Project Name="Lab8_Deque" ConfigName="Release"/>
+      <Project Name="Lab9_Recursion" ConfigName="Release"/>
+      <Project Name="HW7_Deque" ConfigName="Release"/>
+      <Project Name="HW7" ConfigName="Release"/>
+      <Project Name="HW7" ConfigName="Release"/>
+      <Project Name="Lab8_Deque" ConfigName="Release"/>
+      <Project Name="HW8_Pattern" ConfigName="Release"/>
+      <Project Name="Lab10_BinaryTree" ConfigName="Release"/>
+      <Project Name="HW9_BearPicnic" ConfigName="Release"/>
+      <Project Name="HW9_BinarySearchTree" ConfigName="Release"/>
+      <Project Name="Lab11_HeapPriorityQueue" ConfigName="Release"/>
+      <Project Name="Lab12_Table" ConfigName="Release"/>
+      <Project Name="Lab12_Table_redo" ConfigName="Release"/>
+      <Project Name="Udemy" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

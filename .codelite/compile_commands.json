@@ -1,0 +1,169 @@
+[{
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Bag/main.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Bag",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Bag/main.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Bag/main.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Bag/bag.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Bag",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Bag/bag.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Bag/bag.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Bank/main.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Bank",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Bank/main.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Bank/main.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Bank/Account.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Bank",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Bank/Account.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Bank/Account.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Quad/main.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Quad",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Quad/main.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Quad/main.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Quad/Quad.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Quad",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Quad/Quad.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Quad/Quad.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Quad2/main.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Quad2",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Quad2/main.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Quad2/main.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Quad2/Quad2.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Quad2",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Quad2/Quad2.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW1_Quad2/Quad2.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW2_Sequence/main.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW2_Sequence",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW2_Sequence/main.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW2_Sequence/main.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW2_Sequence/sequence.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW2_Sequence",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW2_Sequence/sequence.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW2_Sequence/sequence.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW3_Poly/main.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW3_Poly",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW3_Poly/main.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW3_Poly/main.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW3_Poly/poly0.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW3_Poly",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW3_Poly/poly0.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW3_Poly/poly0.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW3_Poly/test.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW3_Poly",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW3_Poly/test.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW3_Poly/test.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW4_Node/main.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW4_Node",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW4_Node/main.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW4_Node/main.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW4_Node/node1.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW4_Node",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW4_Node/node1.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW4_Node/node1.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW5_ListMethod/try_list_methods.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW5_ListMethod",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW5_ListMethod/try_list_methods.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW5_ListMethod/try_list_methods.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW5_ListMethod/list.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW5_ListMethod",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW5_ListMethod/list.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW5_ListMethod/list.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW5_ListMethod/utility.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW5_ListMethod",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW5_ListMethod/utility.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW5_ListMethod/utility.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW5_ListMethod/node1.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW5_ListMethod",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW5_ListMethod/node1.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW5_ListMethod/node1.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW6_TestingSets/main.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW6_TestingSets",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW6_TestingSets/main.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW6_TestingSets/main.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW6_TestingSets/node1.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW6_TestingSets",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW6_TestingSets/node1.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW6_TestingSets/node1.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW6_TestingSets/set.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW6_TestingSets",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW6_TestingSets/set.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW6_TestingSets/set.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW7/main.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW7",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW7/main.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/HW7/main.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab2_Statistician/main.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab2_Statistician",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab2_Statistician/main.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab2_Statistician/main.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab2_Statistician/statistician.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab2_Statistician",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab2_Statistician/statistician.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab2_Statistician/statistician.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab3_Stats2/main.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab3_Stats2",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab3_Stats2/main.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab3_Stats2/main.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab3_Stats2/stats2.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab3_Stats2",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab3_Stats2/stats2.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab3_Stats2/stats2.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab4_Set/main.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab4_Set",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab4_Set/main.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab4_Set/main.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab4_Set/set.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab4_Set",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab4_Set/set.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab4_Set/set.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_Bag3/main.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_Bag3",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_Bag3/main.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_Bag3/main.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_Bag3/bag3.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_Bag3",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_Bag3/bag3.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_Bag3/bag3.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_Bag3/toolkit.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_Bag3",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_Bag3/toolkit.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_Bag3/toolkit.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_CheckLists/main.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_CheckLists",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_CheckLists/main.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_CheckLists/main.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_CheckLists/check_lists.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_CheckLists",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_CheckLists/check_lists.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_CheckLists/check_lists.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_CheckLists/node1.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_CheckLists",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_CheckLists/node1.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab5_CheckLists/node1.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab6_Sequence3/main.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab6_Sequence3",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab6_Sequence3/main.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab6_Sequence3/main.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab6_Sequence3/sequence3.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab6_Sequence3",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab6_Sequence3/sequence3.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab6_Sequence3/sequence3.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab6_Sequence3/node1.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab6_Sequence3",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab6_Sequence3/node1.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab6_Sequence3/node1.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab7_BagWithIterator/main.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab7_BagWithIterator",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab7_BagWithIterator/main.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab7_BagWithIterator/main.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab9_Recursion/main.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab9_Recursion",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab9_Recursion/main.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Lab9_Recursion/main.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Throttle/main.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Throttle",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Throttle/main.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Throttle/main.cpp.o  -g  -O0  -Wall -I. -I."
+ }, {
+  "file": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Throttle/throttle.cpp",
+  "directory": "/Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Throttle",
+  "command": "/usr/bin/g++ -c /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Throttle/throttle.cpp -o /Users/jasonwalters/Documents/KSU/DataStructures/DS3304/Throttle/throttle.cpp.o  -g  -O0  -Wall -I. -I."
+ }]

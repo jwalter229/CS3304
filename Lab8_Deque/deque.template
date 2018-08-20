@@ -1,0 +1,220 @@
+#include <cassert>
+
+using namespace std;
+
+template <class T>
+deque<T>::deque(){
+	
+	//Initialize all the variables
+	
+	first = 0;
+	last = CAPACITY - 1;
+	count = 0;
+	endFirst = 0;
+	endLast = CAPACITY - 1;
+}
+
+template <class T>
+deque<T>::deque(const T& fEntry, const T& bEntry){
+	//Initialize all the variables
+	
+	first = 0;
+	last = CAPACITY - 1;
+	count = 0;
+	endFirst = 0;
+	endLast = CAPACITY - 1;
+	push_front(fEntry);
+	push_back(bEntry);
+}
+
+template <class T>
+T& deque<T>::front(){
+	//Check if empty
+	assert(!empty());
+	
+	//return the first value in deque
+	return data[first];
+}
+
+template <class T>
+T deque<T>::front() const{
+	
+	//Check if empty
+	assert(!empty());
+	
+	//return the first value in deque
+	return data[first];
+}
+
+template <class T>
+T& deque<T>::back(){
+	
+	//Check if empty
+	assert(!empty());
+	
+	//Return the last value in deque
+	return data[last];
+}
+
+template <class T>
+T deque<T>::back() const
+{
+	//Check if empty
+	assert(!empty());
+	
+	//return the first value in deque
+	return data[last];
+}
+
+template <class T>
+void deque<T>::push_front(const T& entry)
+{
+	
+	//Check if full
+	assert(!full());
+	
+	
+	//Check if the first value is not equal to 0
+	if (first != 0)
+	{
+		//Subtract first
+		--first;
+		
+		//Let that value take its place
+		data[first] = entry;
+	}
+	
+	else{
+		
+		//Move all values by 1
+		for (int i = endFirst - 1; i >= 0; i--)
+		{
+			data[i + 1] = data[i];
+		}
+		
+		//Make first index equal to entry
+		data[first] = entry;
+		
+		//Increase next available first
+		++endFirst;
+	}
+	
+	//Increase count by 1
+	++count;
+	
+	
+}
+
+template <class T>
+void deque<T>::push_back(const T& entry)
+{
+	
+	//Check if full
+	assert(!full());
+	
+	//If last is not the end
+	if (last != CAPACITY - 1)
+	{
+		
+		//Increase last and make entry take up that position
+		++last;
+		data[last] = entry;
+	}
+	
+	//If last is the end
+	else{
+		
+		//Move elements to the right
+		for (size_t i = endLast + 1; i < CAPACITY; i++)
+		{
+			data[i - 1] = data[i];
+		}
+		
+		//Let entry take up last position, decrement the next last value by 1
+		data[last] = entry;
+		--endLast;
+	}
+	
+	//Increase count by 1
+	++count;
+}
+
+template <class T>
+void deque<T>::pop_front()
+{
+	assert(!empty());
+	
+	//Decrement count by 1 and increase first by 1
+	--count;
+    ++first;
+}
+
+template <class T>
+void deque<T>::pop_back()
+{
+	//Check if empty
+	assert(!empty());
+	
+	//decrement count and last by 1
+	--count;
+	--last;
+}
+
+template <class U>
+bool operator ==(const deque<U>& dq1, const deque<U>& dq2)
+{
+	//Check if size of dq1 is equal to size of dq2
+	if (dq1.count == dq2.count)
+	{
+		
+		//Check if their data equals to each other
+		for (size_t i = 0; i < dq1.endFirst; i++)
+		{
+			//If their data is not equal, return false
+			if (dq1.data[i] != dq2.data[i])
+			{
+				return false;
+			}
+		}
+	}
+	
+	//If not these deques are not equal
+	else{
+		
+		return false;
+	
+	}
+	
+	//If nothing seems to be different, return true
+	return true;
+}
+
+template <class U>
+ostream& operator<<(ostream& out, const deque<U>& dq)
+{
+
+	//Print all elements of deque 
+	
+	cout<<"This deque contains the elements: ";
+	for (size_t i = dq.first; i != dq.endFirst; i++)
+	{
+		cout << dq.data[i] <<" ";
+	}
+	
+	for (size_t i = dq.endLast + 1; i <= dq.last; i++)
+	{
+		cout << dq.data[i] << " ";
+	}
+}
+
+template <class T>
+size_t deque<T>::get_next(size_type i)
+{
+	return next_index(i);
+}
+
+template <class T>
+size_t deque<T>::get_prev(size_type i)
+{
+	return prev_index(i);
+}
